@@ -123,6 +123,8 @@
 			<form>
 				<label for="nacionalidade">Nacionalidade: </label>
 				<input type="text" id="nacionalidade">
+
+				<button id="enviar" type="button" onclick="del()">Enviar</button>
 			</form>
 		</div>
 
@@ -131,4 +133,11 @@
 			<p>Luis Viegas - 01/2026</p>
 		</Footer>
 	</body>
+
+	<script>
+		function del()
+		{
+			document.getElementById("nacionalidade").value = "";
+		}
+	</script>
 </html>

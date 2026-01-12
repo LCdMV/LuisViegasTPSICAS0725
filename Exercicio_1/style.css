@@ -50,6 +50,7 @@ img {
 	width: 550px;
 	border-style: outset;
 	border-color: #0b6917;
+	border-radius: 4px;
 }
 
 .intro {
@@ -124,4 +125,14 @@ input {
 	background-color: #1b962c;
 	color: #790303;
 	font-weight: bolder;
+}
+
+button {
+	background-color: #82d188;
+	color: #9b0505;
+	border-style: outset;
+	border-color: #0b6917;
+	border-radius: 4px;
+	font-weight: bolder;
+	padding: 2px;
 }
