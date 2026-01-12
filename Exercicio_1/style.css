@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 1.4;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: #82d188;
+	color: #9b0505;
+}
+
+div {
+	text-align: center;
+	margin: 100px;
+}
+
+header {
+	text-align: center;
+	font-size: 16px;
+	color: #790303;
+	margin-top: 35px;
+}
+
+footer {
+	text-align: center;
+	font-size: 16px;
+	color: #790303;
+	margin-bottom: 35px;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: bolder;
+	margin-bottom: 25px;
+}
+
+img {
+	width: 550px;
+	border-style: outset;
+	border-color: #0b6917;
+}
+
+.intro {
+	text-align: justify;
+}
+
+.intro h2{
+	text-align: center;
+}
+
+.rios {
+	margin: 250px;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+.rios h2{
+	text-align: center;
+}
+
+.rios table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.rios th {
+	background-color: #1b962c;
+	columns: #790303;
+	font-size: 18px;
+	font-weight: bold;
+	border: 1px solid #0b6917;
+	text-align: center;
+}
+
+.rios td {
+	text-align: center;
+	border: 1px solid #0b6917;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+.states {
+	columns: 3;
+	column-gap: 25px;
+}
+
+.states h2 {
+	column-span: all;
+}
+
+.outer {
+	font-weight: bold;
+	text-align: left;
+	list-style-type: none;
+	padding-left: 0;
+	font-size: 20px;
+}
+
+.inner {
+	font-weight: lighter;
+	text-align: left;
+	list-style-type: circle;
+	padding-left: 25px;
+	font-size: 18px;
+}
+
+form {
+	font-size: 20px;
+}
+
+input {
+	background-color: #1b962c;
+	color: #790303;
+	font-weight: bolder;
+}
