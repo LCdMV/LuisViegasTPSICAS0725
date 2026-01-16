@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+	<html lang="pt">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Exercicio 1 - Portugal</title>
+	</head>
+
+	<body>
+		<header>
+			<h1>Portugal</h1>
+		</header>
+		
+		<div class="bandeira">
+			<img id="band" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Flag_of_Portugal_%28official%29.svg/250px-Flag_of_Portugal_%28official%29.svg.png" alt="imagems de portugal do google">
+		</div>
+
+		<div class="states">
+			<h2 class="dist">Distritos de Portugal</h2>
+
+			<ul class="outer">
+				<li>Portugal Continental
+					<ul class="inner">
+						<li>Aveiro</li>
+						<li>Beja</li>
+						<li>Braga</li>
+						<li>Bragança</li>
+						<li>Castelo Branco</li>
+						<li>Coimbra</li>
+						<li>Évora</li>
+						<li>Faro</li>
+						<li>Guarda</li>
+						<li>Leiria</li>
+						<li>Lisboa</li>
+						<li>Portalegre</li>
+						<li>Porto</li>
+						<li>Santarém</li>
+						<li>Setúbal</li>
+						<li>Viana do Castelo</li>
+						<li>Vila Real</li>
+						<li>Viseu</li>
+					</ul>
+				</li>
+				<li>Região Autónoma da Madeira
+					<ul class="inner">
+						<li>Funchal</li>
+					</ul>
+				</li>
+				<li>Região Autónoma dos Açores
+					<ul class="inner">
+						<li>Angra do Heroísmo</li>
+						<li>Horta</li>
+						<li>Ponta Delgada</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		<div class="nac">
+			<h2 class="nacio">Qual a sua nacionalidade?</h3>
+			<form>
+				<label for="nacionalidade">Nacionalidade: </label>
+				<input type="text" id="nacionalidade">
+
+				<button id="enviar" type="button" onclick="del()">Enviar</button>
+			</form>
+		</div>
+
+		<div class="pag">
+			<a href="pagRios.html"><button id="ante" type="button">Página Anterior</button></a>
+			<a href="pagDist.html"></a><button id="prox3" type="button">Próxima Página</button></a>
+		</div>
+
+		<Footer>
+			<p>CET.TPSI.CAS:0725 - UC00604 - Formador Dário Qunetal</p>
+			<p>Luis Viegas - 01/2026</p>
+		</Footer>
+	</body>
+
+	<script>
+		function del()
+		{
+			document.getElementById("nacionalidade").value = "";
+		}
+	</script>
+</html>

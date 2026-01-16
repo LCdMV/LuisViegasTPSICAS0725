@@ -29,103 +29,9 @@
 				capital e maior cidade, e o português é a língua oficial</p>
 		</div>
 
-		<div class="rios">
-			<h2 class="rio">Rios de Portugal</h2>
-
-			<table>
-				<thead class="titles">
-					<tr>
-						<th>Rio</th>
-						<th>Região</th>
-						<th>Onde Desagua</th>
-						<th>Onde Nasce</th>
-					</tr>
-				</thead>
-
-				<tbody class="info">
-					<tr>
-						<td>Douro</td>
-						<td>Norte</td>
-						<td>Atlântico, no Porto</td>
-						<td>Serra de Urbión, Espanha</td>
-					</tr>
-					<tr>
-						<td>Mondego</td>
-						<td>Centro Norte</td>
-						<td>Atlântico, na Figueira da Foz</td>
-						<td>Serra da Estrela</td>
-					</tr>
-					<tr>
-						<td>Tejo</td>
-						<td>Centro</td>
-						<td>Atlântico, em Lisboa</td>
-						<td>Serra de Albarracín, Espanha</td>
-					</tr>
-					<tr>
-						<td>Sado</td>
-						<td>Alentejo</td>
-						<td>Atlântico, em Setúbal</td>
-						<td>Serra da Vigia (Ourique)</td>
-					</tr>
-					<tr>
-						<td>Guadiana</td>
-						<td>Sudoeste</td>
-						<td>Atlântico, em Vila Real de Santo António</td>
-						<td>Serra de Albarracín, Espanha</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-
-		<div class="states">
-			<h2 class="dist">Distritos de Portugal</h2>
-
-			<ul class="outer">
-				<li>Portugal Continental
-					<ul class="inner">
-						<li>Aveiro</li>
-						<li>Beja</li>
-						<li>Braga</li>
-						<li>Bragança</li>
-						<li>Castelo Branco</li>
-						<li>Coimbra</li>
-						<li>Évora</li>
-						<li>Faro</li>
-						<li>Guarda</li>
-						<li>Leiria</li>
-						<li>Lisboa</li>
-						<li>Portalegre</li>
-						<li>Porto</li>
-						<li>Santarém</li>
-						<li>Setúbal</li>
-						<li>Viana do Castelo</li>
-						<li>Vila Real</li>
-						<li>Viseu</li>
-					</ul>
-				</li>
-				<li>Região Autónoma da Madeira
-					<ul class="inner">
-						<li>Funchal</li>
-					</ul>
-				</li>
-				<li>Região Autónoma dos Açores
-					<ul class="inner">
-						<li>Angra do Heroísmo</li>
-						<li>Horta</li>
-						<li>Ponta Delgada</li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-
-		<div class="nac">
-			<h2 class="nacio">Qual a sua nacionalidade?</h3>
-			<form>
-				<label for="nacionalidade">Nacionalidade: </label>
-				<input type="text" id="nacionalidade">
-
-				<button id="enviar" type="button" onclick="del()">Enviar</button>
-			</form>
+		<div class="pag">
+			<a href="index.html"><button id="ante1" type="button">Página Anterior</button></a>
+			<a href="..\pagRios.html"></a><button id="prox" type="button">Próxima Página</button></a>
 		</div>
 
 		<Footer>
@@ -133,11 +39,4 @@
 			<p>Luis Viegas - 01/2026</p>
 		</Footer>
 	</body>
-
-	<script>
-		function del()
-		{
-			document.getElementById("nacionalidade").value = "";
-		}
-	</script>
 </html>
