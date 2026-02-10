@@ -13,6 +13,17 @@ header {
 	background-color: #585858;
 }
 
+footer {
+	background-color: #585858;
+	color: #ffffff;
+	text-align: center;
+	padding: 2px;
+}
+
+footer p {
+	margin: 0;
+}
+
 nav {
 	background-color: #ff8800;
 	color: #ffffff;
